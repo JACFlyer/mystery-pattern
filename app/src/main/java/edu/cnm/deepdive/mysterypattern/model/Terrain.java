@@ -19,7 +19,8 @@ public class Terrain {
   public void reset() {
     agents = new Agent[vertices.length];
     for (int i = 0; i < vertices.length; i++) {
-    agents[i] = new Agent(vertices[i].getX(), vertices[i].getY());
+      agents[i] = new Agent(vertices[i].getX(), vertices[i].getY());
+    }
   }
 
 
